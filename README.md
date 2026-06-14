@@ -1,26 +1,21 @@
-# interaction_hub
-genlayer-contracts
-A coordination layer for cross-contract interactions and system orchestration.
+# Interaction Hub
 
-## System Connection
+A GenLayer smart contract for recording user interactions.
 
-This contract is part of a 5-contract ecosystem:
+## Features
 
-- Reputation updates trigger token rewards
-- Token balance affects marketplace bidding
-- Disputes can reduce reputation
-- All actions are logged in interaction hub
+* Record interactions
+* Count interaction activity
+* Retrieve interaction totals
 
-## Final System Overview
+## Files
 
-This project is a modular AI-inspired smart contract ecosystem built on GenLayer.
+* contract.py
 
-It demonstrates:
+## Network
 
-- Decentralized trust scoring
-- Adaptive token rewards
-- Automated dispute handling
-- Task marketplace logic
-- Cross-contract event logging
+GenLayer Testnet
 
-All components work together as a single intelligent system.
+## Author
+
+cryptofunny2021

@@ -13,3 +13,9 @@ contract InteractionHub:
 
     def get_logs(self):
         return self.logs
+
+def log_event(self, event_type, data):
+    self.logs.append({
+        "type": event_type,
+        "data": data
+    })

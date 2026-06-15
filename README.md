@@ -1,5 +1,25 @@
 # Interaction Hub
 
+
+**قرارداد مرکزی اکوسیستم SocialFi**
+
+**Contract Address:**  
+`0xF4f25C67D8aaa24A71E85C9cCF61c5c1a8F2f8b1`
+
+## 🚀 قابلیت جدید (v0.2.3)
+- حالا مستقیم به **Reputation Scoring** و **Dynamic Token** متصل است.
+- هر بار که `record_interaction()` صدا زده شود:
+  - ۱۰ امتیاز Reputation اضافه می‌شود.
+  - ۵ توکن پاداش Mint می‌شود.
+
+## نحوه استفاده
+```python
+from genlayer import *
+
+hub = gl.contract("0xF4f25C67D8aaa24A71E85C9cCF61c5c1a8F2f8b1")
+hub.record_interaction()   #
+تعامل ثبت + پاداش
+# =====
 A GenLayer smart contract for recording user interactions.
 
 ## Features
